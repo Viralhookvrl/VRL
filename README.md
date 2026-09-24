@@ -16,20 +16,21 @@ This repository is the field record. It reads the contract and writes down what 
 
 | Outbreak | Current state |
 | --- | --- |
-| Strain | `VRL-D2CD-02DF` |
-| Genome | `0xd2cd…5693` |
-| Revision | [129](mutations/) |
-| Active hosts | 7 |
+| Strain | `VRL-4BD5-5A34` |
+| Genome | `0x4bd5…e0df` |
+| Revision | [133](mutations/) |
+| Active hosts | 8 |
 | Immune hosts | 0 |
-| Total transmissions | [7](transmissions/) |
-| Eligible swaps | 129 |
-| Finalized through | [26049646](https://etherscan.io/block/26049646) |
+| Total transmissions | [8](transmissions/) |
+| Eligible swaps | 133 |
+| Finalized through | [26049677](https://etherscan.io/block/26049677) |
 | Contract | [`0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1`](https://etherscan.io/address/0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1) |
 
 ### Recent transmissions
 
 | Block | Infector | Host | Strain | Gen | Cut |
 | --- | --- | --- | --- | --- | --- |
+| [26049671](https://etherscan.io/block/26049671) | [`0x6884…2e3a`](https://etherscan.io/address/0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a) | [`0xD250…DeaD`](https://etherscan.io/address/0xD2507B4958B449695201599E8d8A25f4BAB5DeaD) | `VRL-9581-8E9D` | 1 | 8.93% |
 | [26049628](https://etherscan.io/block/26049628) | [`0xc14D…0D95`](https://etherscan.io/address/0xc14DB08A71928E14Aff08DE1D662680ebCE60D95) | [`0x57AF…1023`](https://etherscan.io/address/0x57AF43345967Af57E90a112bFa7e224Bd6691023) | `VRL-BAE7-C52C` | 1 | 5.10% |
 | [26049627](https://etherscan.io/block/26049627) | [`0x02b9…c5e4`](https://etherscan.io/address/0x02b95471188985D78669bEAa000abEe3942fc5e4) | [`0xDcA4…F3E3`](https://etherscan.io/address/0xDcA4348261e719F46daF90b8DEeB7Ad16049F3E3) | `VRL-5BC4-3096` | 1 | 8.34% |
 | [26049626](https://etherscan.io/block/26049626) | [`0x02b9…c5e4`](https://etherscan.io/address/0x02b95471188985D78669bEAa000abEe3942fc5e4) | [`0x7F08…1ee5`](https://etherscan.io/address/0x7F08779B038A081eDEDc171A6401d54c7Db41ee5) | `VRL-8007-F280` | 1 | 6.65% |
@@ -43,14 +44,14 @@ This repository is the field record. It reads the contract and writes down what 
 | Wallet | Hosts infected |
 | --- | --- |
 | [`0x02b9…c5e4`](https://etherscan.io/address/0x02b95471188985D78669bEAa000abEe3942fc5e4) | 5 |
-| [`0x6884…2e3a`](https://etherscan.io/address/0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a) | 1 |
+| [`0x6884…2e3a`](https://etherscan.io/address/0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a) | 2 |
 | [`0xc14D…0D95`](https://etherscan.io/address/0xc14DB08A71928E14Aff08DE1D662680ebCE60D95) | 1 |
 
-Latest mutation: [revision 129](mutations/000129.json) — `VRL-D2CD-02DF` at block [26049636](https://etherscan.io/block/26049636), in [`0x8427bcb8…`](https://etherscan.io/tx/0x8427bcb884b848f66fa218c719c15f1fa930cc17cd453f5f6e835f33cb236704).
+Latest mutation: [revision 133](mutations/000133.json) — `VRL-4BD5-5A34` at block [26049675](https://etherscan.io/block/26049675), in [`0x14307ee2…`](https://etherscan.io/tx/0x14307ee26ff22f09efa55006ab0bb592301759c73dea2c85ae5be1a32f70319c).
 
 [State](live/state.json) · [Genome](live/genome.json) · [Outbreak](live/outbreak.json) · [Infections](infections/) · [Mutations](mutations/) · [Transmissions](transmissions/)
 
-129 mutations and 7 transmissions archived. An infection expires on a swap count, then the host stays immune for 32 eligible swaps.
+133 mutations and 8 transmissions archived. An infection expires on a swap count, then the host stays immune for 32 eligible swaps.
 
 *Snapshot of finalized Ethereum state. This section updates when the sync workflow runs.*
 
