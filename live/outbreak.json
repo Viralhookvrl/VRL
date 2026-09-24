@@ -1,12 +1,12 @@
 {
-  "block": 26049740,
-  "revision": 146,
-  "strainCode": "VRL-947E-0695",
-  "activeHosts": 11,
+  "block": 26049794,
+  "revision": 152,
+  "strainCode": "VRL-3676-AC7E",
+  "activeHosts": 15,
   "immuneHosts": 0,
   "cleanedHosts": 0,
-  "totalTransmissions": 11,
-  "eligibleSwapCount": 146,
+  "totalTransmissions": 15,
+  "eligibleSwapCount": 152,
   "topInfectors": [
     {
       "address": "0x02b95471188985D78669bEAa000abEe3942fc5e4",
@@ -14,6 +14,10 @@
     },
     {
       "address": "0xf40bDc35f32089c549d90356A0155f612Cf74151",
+      "infections": 4
+    },
+    {
+      "address": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
       "infections": 3
     },
     {
@@ -26,6 +30,50 @@
     }
   ],
   "recentTransmissions": [
+    {
+      "source": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
+      "host": "0xE463E91b5Ac588E24Ac810d403795f08F86822D9",
+      "strainCode": "0xe4ef9b1b9004ca3d4e825b468c9da93241c30b9579c5a4dcb289a61557e63562",
+      "displayStrain": "VRL-E4EF-9B1B",
+      "generation": 3,
+      "rewardCutBps": 788,
+      "block": 26049793,
+      "logIndex": 313,
+      "tx": "0x5fda222a2c45bda5badfdd30c3fc9e092b57573af4ee63d026dc8f11d53dad48"
+    },
+    {
+      "source": "0xf40bDc35f32089c549d90356A0155f612Cf74151",
+      "host": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
+      "strainCode": "0x78b5077138c5e4607ed9a0cac099500af32443ef57c45c3a9c59f8afbb9eb93c",
+      "displayStrain": "VRL-78B5-0771",
+      "generation": 2,
+      "rewardCutBps": 733,
+      "block": 26049787,
+      "logIndex": 288,
+      "tx": "0xb2256517355fda1374c0b354248b892eeb325ac04f896a40fbd405432d568928"
+    },
+    {
+      "source": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
+      "host": "0x236f34dFf86502596E8F5d129809B9783531Bc37",
+      "strainCode": "0xd2aa8cf79e7e164a179432c92edd9ac8c77800c76bda3e49c2e50abe8dc0fd39",
+      "displayStrain": "VRL-D2AA-8CF7",
+      "generation": 1,
+      "rewardCutBps": 799,
+      "block": 26049782,
+      "logIndex": 327,
+      "tx": "0x5578555bfcddd501f680f7b849befb4d7560a4f09ca95afffdd8c35ae15e5109"
+    },
+    {
+      "source": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
+      "host": "0xf40bDc35f32089c549d90356A0155f612Cf74151",
+      "strainCode": "0xff35bb777d6ab30a4680f428b90dc13bd4b7b687b8ecc30542df4794c44322b6",
+      "displayStrain": "VRL-FF35-BB77",
+      "generation": 1,
+      "rewardCutBps": 500,
+      "block": 26049773,
+      "logIndex": 383,
+      "tx": "0x11e103d52381cd0cdbf93b0a1fb513586263a61313c9ca48f95005e94c914dcf"
+    },
     {
       "source": "0xf40bDc35f32089c549d90356A0155f612Cf74151",
       "host": "0x29909b9c97845D5eb998B4AA41664a46c5dc35C6",
