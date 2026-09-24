@@ -1,0 +1,11 @@
+{
+  "source": "0x02b95471188985D78669bEAa000abEe3942fc5e4",
+  "host": "0x54E8B3ba0E123aFB71a7A92c665F010da8Ac0Ca6",
+  "strainCode": "0xc5483f7373a9fc9a2d2a177eb819ebb2234d7e8f8f992cec45ec56e2e8b54779",
+  "displayStrain": "VRL-C548-3F73",
+  "generation": 1,
+  "rewardCutBps": 642,
+  "block": 26049620,
+  "logIndex": 599,
+  "tx": "0x08bf3bd11955723cc7e995f7a65d7386a6ea3ad9dc7dff3eb8ae0c0a59330ddd"
+}

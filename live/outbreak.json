@@ -1,12 +1,103 @@
 {
-  "block": null,
-  "revision": 0,
-  "strainCode": "VRL-0000-0000",
-  "activeHosts": 0,
+  "block": 26049646,
+  "revision": 129,
+  "strainCode": "VRL-D2CD-02DF",
+  "activeHosts": 7,
   "immuneHosts": 0,
   "cleanedHosts": 0,
-  "totalTransmissions": 0,
-  "eligibleSwapCount": 0,
-  "topInfectors": [],
-  "recentTransmissions": []
+  "totalTransmissions": 7,
+  "eligibleSwapCount": 129,
+  "topInfectors": [
+    {
+      "address": "0x02b95471188985D78669bEAa000abEe3942fc5e4",
+      "infections": 5
+    },
+    {
+      "address": "0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a",
+      "infections": 1
+    },
+    {
+      "address": "0xc14DB08A71928E14Aff08DE1D662680ebCE60D95",
+      "infections": 1
+    }
+  ],
+  "recentTransmissions": [
+    {
+      "source": "0xc14DB08A71928E14Aff08DE1D662680ebCE60D95",
+      "host": "0x57AF43345967Af57E90a112bFa7e224Bd6691023",
+      "strainCode": "0xbae7c52c5bc006cb55dd675fa15dc8d9c5f7b2669b144e65c8f52a6423d12657",
+      "displayStrain": "VRL-BAE7-C52C",
+      "generation": 1,
+      "rewardCutBps": 510,
+      "block": 26049628,
+      "logIndex": 622,
+      "tx": "0x1fee57ebcaffd852d656f5f8bda551deaf25e807edb2777d139276f170053123"
+    },
+    {
+      "source": "0x02b95471188985D78669bEAa000abEe3942fc5e4",
+      "host": "0xDcA4348261e719F46daF90b8DEeB7Ad16049F3E3",
+      "strainCode": "0x5bc430969223bfb586d7b4591a05d076136b15b7301fc1f5ebfca9ff5f94747a",
+      "displayStrain": "VRL-5BC4-3096",
+      "generation": 1,
+      "rewardCutBps": 834,
+      "block": 26049627,
+      "logIndex": 139,
+      "tx": "0x75670f6124d7654116c76e00b98e791de2234e87bc48b3917b4d7076fb3feb45"
+    },
+    {
+      "source": "0x02b95471188985D78669bEAa000abEe3942fc5e4",
+      "host": "0x7F08779B038A081eDEDc171A6401d54c7Db41ee5",
+      "strainCode": "0x8007f280493a549cf63dffe9b7390c36e92b8a10ba54739fb3c53891830de2b2",
+      "displayStrain": "VRL-8007-F280",
+      "generation": 1,
+      "rewardCutBps": 665,
+      "block": 26049626,
+      "logIndex": 277,
+      "tx": "0xb5021ea51a5120985af78cbaaa2840ec7cfd6224c139071084d0d6c6a5730ce0"
+    },
+    {
+      "source": "0x02b95471188985D78669bEAa000abEe3942fc5e4",
+      "host": "0x188A9c66683924c9E2F99db1c540ff110d910c81",
+      "strainCode": "0xc6c7a7dc30c615078968cc19046ade558feff185bc4cc64d7534bf94bd15d0c8",
+      "displayStrain": "VRL-C6C7-A7DC",
+      "generation": 1,
+      "rewardCutBps": 765,
+      "block": 26049623,
+      "logIndex": 283,
+      "tx": "0xb7b76c1032615ee7cde1090f35528977370241f1349f277a84713a11f6c5df63"
+    },
+    {
+      "source": "0x02b95471188985D78669bEAa000abEe3942fc5e4",
+      "host": "0x207adD7687EF755C2c1ECfE3da5589d67f93F6D7",
+      "strainCode": "0xee150fc0cdd5a9f1209c0392bee18942d8200ea5a8ffc9d546677db9f869f33f",
+      "displayStrain": "VRL-EE15-0FC0",
+      "generation": 1,
+      "rewardCutBps": 683,
+      "block": 26049622,
+      "logIndex": 364,
+      "tx": "0x5ffe98f69e675921406a17e9f0b22b3265e1de3c985efa4e32c841f3afedd713"
+    },
+    {
+      "source": "0x02b95471188985D78669bEAa000abEe3942fc5e4",
+      "host": "0x54E8B3ba0E123aFB71a7A92c665F010da8Ac0Ca6",
+      "strainCode": "0xc5483f7373a9fc9a2d2a177eb819ebb2234d7e8f8f992cec45ec56e2e8b54779",
+      "displayStrain": "VRL-C548-3F73",
+      "generation": 1,
+      "rewardCutBps": 642,
+      "block": 26049620,
+      "logIndex": 599,
+      "tx": "0x08bf3bd11955723cc7e995f7a65d7386a6ea3ad9dc7dff3eb8ae0c0a59330ddd"
+    },
+    {
+      "source": "0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a",
+      "host": "0xB18b7b4e7F5C17BfDca140D987131f4F50107f47",
+      "strainCode": "0xd3cd239f7cc32711d0e213de27e08e0b54f4ee2907015a8055309ca50e14c388",
+      "displayStrain": "VRL-D3CD-239F",
+      "generation": 1,
+      "rewardCutBps": 759,
+      "block": 26049607,
+      "logIndex": 301,
+      "tx": "0xd888960c7da8df0754c8f8074d18f1c6c23862abb9e7b0dcbd07a0d64bf49c8b"
+    }
+  ]
 }
