@@ -1,0 +1,11 @@
+{
+  "source": "0x00000000000000000000000000000000000000A1",
+  "host": "0x00000000000000000000000000000000000000C3",
+  "strainCode": "0xb7e6ce671d3d50074dfb9b280efe37c161b3fe8e01f00a7e961014fc8e58ff6b",
+  "displayStrain": "VRL-B7E6-CE67",
+  "generation": 2,
+  "rewardCutBps": 660,
+  "block": 24598090,
+  "logIndex": 1,
+  "tx": "0xe5e6c862d9f317bfc979a9f2f0e057c83168e1cbb6d26a498919f4006dc7cf47"
+}

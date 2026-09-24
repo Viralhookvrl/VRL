@@ -1,0 +1,44 @@
+# Setup, once per repository:
+#   Settings → Secrets and variables → Actions → Variables → Repository variables
+#     CONTRACT_ADDRESS  the deployed VRL token address
+#     DEPLOY_BLOCK      the block it was deployed in
+#   Then run this workflow manually, or wait for the schedule.
+# These two are the only settings. Every RPC endpoint is hardcoded in src/config.ts.
+name: Sync VIRAL
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: viral-mirror
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.18.0'
+      - run: npm install --ignore-scripts --no-audit --no-fund
+      - run: npm run check && npm test
+      - name: Read Ethereum and update the mirror
+        env:
+          CONTRACT_ADDRESS: ${{ vars.CONTRACT_ADDRESS }}
+          DEPLOY_BLOCK: ${{ vars.DEPLOY_BLOCK }}
+        run: npm run sync
+      - name: Commit mirror changes
+        shell: bash
+        run: |
+          git add -- live infections mutations transmissions README.md
+          if git diff --cached --quiet; then
+            echo 'No mirror changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "$(node src/commit-message.ts)"
+          git push

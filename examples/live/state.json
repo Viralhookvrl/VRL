@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "chainId": 1,
+  "contractAddress": "0x2a9f3c19E1B5c3F4b8d6A7e0C1D2b3A4f5e6d7C8",
+  "deployBlock": 24598000,
+  "lastProcessedBlock": 24598184,
+  "revision": 4,
+  "genome": "0xe21bcc27d49c928fd47f0b3f4ae414853b3da579384f35156cdff1d41c4781cf",
+  "strainCode": "VRL-E21B-CC27",
+  "eligibleSwapCount": 4,
+  "activeHosts": 2,
+  "immuneHosts": 0,
+  "totalTransmissions": 2,
+  "hook": null,
+  "lastProcessedBlockHash": "0x9c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f60718293a4b5c6d7e8f9a0b1c2d3e4f5",
+  "updatedAt": "2026-09-24T10:38:30.786Z"
+}

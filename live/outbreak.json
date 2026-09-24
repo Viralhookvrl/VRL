@@ -1,0 +1,12 @@
+{
+  "block": null,
+  "revision": 0,
+  "strainCode": "VRL-0000-0000",
+  "activeHosts": 0,
+  "immuneHosts": 0,
+  "cleanedHosts": 0,
+  "totalTransmissions": 0,
+  "eligibleSwapCount": 0,
+  "topInfectors": [],
+  "recentTransmissions": []
+}

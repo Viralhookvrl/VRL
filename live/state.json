@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "chainId": 1,
+  "status": "UNCONFIGURED",
+  "lastProcessedBlock": null,
+  "revision": 0,
+  "genome": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "strainCode": "VRL-0000-0000",
+  "eligibleSwapCount": 0,
+  "activeHosts": 0,
+  "immuneHosts": 0,
+  "totalTransmissions": 0
+}

@@ -1,0 +1,9 @@
+{
+  "revision": 4,
+  "block": 24598120,
+  "tx": "0x79bcfa34be7bbb9ef17656927a498176c4921ffa57147c56d11e776df971f723",
+  "previousGenome": "0xd1fc9716fda8409f32284c5e1ce1f73f6888b30ff0027d7e653f89ae3dd37736",
+  "newGenome": "0xe21bcc27d49c928fd47f0b3f4ae414853b3da579384f35156cdff1d41c4781cf",
+  "displayStrain": "VRL-E21B-CC27",
+  "eligibleSwapCount": 4
+}

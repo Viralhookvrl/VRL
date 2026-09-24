@@ -1,0 +1,44 @@
+{
+  "block": 24598184,
+  "revision": 4,
+  "strainCode": "VRL-E21B-CC27",
+  "activeHosts": 2,
+  "immuneHosts": 0,
+  "cleanedHosts": 0,
+  "totalTransmissions": 2,
+  "eligibleSwapCount": 4,
+  "topInfectors": [
+    {
+      "address": "0x00000000000000000000000000000000000000A1",
+      "infections": 1
+    },
+    {
+      "address": "0x00000000000000000000000000000000000000b2",
+      "infections": 1
+    }
+  ],
+  "recentTransmissions": [
+    {
+      "source": "0x00000000000000000000000000000000000000A1",
+      "host": "0x00000000000000000000000000000000000000C3",
+      "strainCode": "0xb7e6ce671d3d50074dfb9b280efe37c161b3fe8e01f00a7e961014fc8e58ff6b",
+      "displayStrain": "VRL-B7E6-CE67",
+      "generation": 2,
+      "rewardCutBps": 660,
+      "block": 24598090,
+      "logIndex": 1,
+      "tx": "0xe5e6c862d9f317bfc979a9f2f0e057c83168e1cbb6d26a498919f4006dc7cf47"
+    },
+    {
+      "source": "0x00000000000000000000000000000000000000b2",
+      "host": "0x00000000000000000000000000000000000000A1",
+      "strainCode": "0xb7e6ce671d3d50074dfb9b280efe37c161b3fe8e01f00a7e961014fc8e58ff6b",
+      "displayStrain": "VRL-B7E6-CE67",
+      "generation": 1,
+      "rewardCutBps": 420,
+      "block": 24598041,
+      "logIndex": 3,
+      "tx": "0xec344d0e9930b29bc19f310ba20419103477c86d7c7e9455bfda671c167999b2"
+    }
+  ]
+}
