@@ -27,8 +27,11 @@ const event = (name: string) => {
 /// Encodes a log exactly as the node would return it, so the decoder is exercised for real.
 export function log(name: string, args: Record<string, unknown>, block: number, logIndex: number, transactionIndex = 0): RawLog {
   const item = event(name);
-  const indexed = item.inputs.filter(input => input.indexed);
-  const body = item.inputs.filter(input => !input.indexed);
+  // `parseAbi` types each input precisely: an indexed parameter carries
+  // `indexed: true`, a non-indexed one carries no `indexed` property at all. So
+  // the union has no common `indexed` member to read — narrow with `in` instead.
+  const indexed = item.inputs.filter(input => 'indexed' in input && input.indexed);
+  const body = item.inputs.filter(input => !('indexed' in input) || !input.indexed);
   return {
     blockNumber: BigInt(block),
     transactionHash: keccak256(stringToHex(`tx-${block}-${logIndex}`)),
@@ -53,3 +56,4 @@ export function sandbox(): { root: string; cleanup: () => void } {
   const root = mkdtempSync(join(tmpdir(), 'viral-'));
   return { root, cleanup: () => rmSync(root, { recursive: true, force: true }) };
 }
+
