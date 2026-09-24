@@ -1,16 +1,20 @@
 {
-  "block": 26049677,
-  "revision": 133,
-  "strainCode": "VRL-4BD5-5A34",
-  "activeHosts": 8,
+  "block": 26049740,
+  "revision": 146,
+  "strainCode": "VRL-947E-0695",
+  "activeHosts": 11,
   "immuneHosts": 0,
   "cleanedHosts": 0,
-  "totalTransmissions": 8,
-  "eligibleSwapCount": 133,
+  "totalTransmissions": 11,
+  "eligibleSwapCount": 146,
   "topInfectors": [
     {
       "address": "0x02b95471188985D78669bEAa000abEe3942fc5e4",
       "infections": 5
+    },
+    {
+      "address": "0xf40bDc35f32089c549d90356A0155f612Cf74151",
+      "infections": 3
     },
     {
       "address": "0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a",
@@ -22,6 +26,39 @@
     }
   ],
   "recentTransmissions": [
+    {
+      "source": "0xf40bDc35f32089c549d90356A0155f612Cf74151",
+      "host": "0x29909b9c97845D5eb998B4AA41664a46c5dc35C6",
+      "strainCode": "0xfbb49d4252c114ce77d8bb45b847471095b1fd37296d2621f5556f04611bae4f",
+      "displayStrain": "VRL-FBB4-9D42",
+      "generation": 1,
+      "rewardCutBps": 524,
+      "block": 26049709,
+      "logIndex": 13,
+      "tx": "0xf13b03a67bbd2d8d7ced68eb41bab69ab142c05551fbe566020a87462d1ce36f"
+    },
+    {
+      "source": "0xf40bDc35f32089c549d90356A0155f612Cf74151",
+      "host": "0xc14DB08A71928E14Aff08DE1D662680ebCE60D95",
+      "strainCode": "0x41d85f8360fc4ec33e23344f63221cb8003af6e56096d8768e5a34ac24053bb7",
+      "displayStrain": "VRL-41D8-5F83",
+      "generation": 1,
+      "rewardCutBps": 891,
+      "block": 26049698,
+      "logIndex": 512,
+      "tx": "0x68edf431373350ff2a21fe334c6798dfc70879828ac628bb6be881974f2672c2"
+    },
+    {
+      "source": "0xf40bDc35f32089c549d90356A0155f612Cf74151",
+      "host": "0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a",
+      "strainCode": "0xf658789975665e6971e3a84afa2c027e0468e1537b0b00f3879b85966d9acd5c",
+      "displayStrain": "VRL-F658-7899",
+      "generation": 1,
+      "rewardCutBps": 690,
+      "block": 26049681,
+      "logIndex": 131,
+      "tx": "0xcf55fde275af1474e2d72a1bf80b9f0cc327b88e6d6488a5a27ee10e7a3eae14"
+    },
     {
       "source": "0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a",
       "host": "0xD2507B4958B449695201599E8d8A25f4BAB5DeaD",

@@ -1,0 +1,14 @@
+{
+  "host": "0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a",
+  "status": "INFECTED",
+  "infector": "0xf40bDc35f32089c549d90356A0155f612Cf74151",
+  "strainCode": "0xf658789975665e6971e3a84afa2c027e0468e1537b0b00f3879b85966d9acd5c",
+  "displayStrain": "VRL-F658-7899",
+  "generation": 1,
+  "rewardCutBps": 690,
+  "createdSwap": 134,
+  "expirySwap": 384,
+  "immuneUntilSwap": 416,
+  "block": 26049681,
+  "tx": "0xcf55fde275af1474e2d72a1bf80b9f0cc327b88e6d6488a5a27ee10e7a3eae14"
+}
