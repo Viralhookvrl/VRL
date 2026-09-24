@@ -1,13 +1,17 @@
 {
-  "block": 26049794,
-  "revision": 152,
-  "strainCode": "VRL-3676-AC7E",
-  "activeHosts": 15,
+  "block": 26049833,
+  "revision": 154,
+  "strainCode": "VRL-6604-5281",
+  "activeHosts": 19,
   "immuneHosts": 0,
   "cleanedHosts": 0,
-  "totalTransmissions": 15,
-  "eligibleSwapCount": 152,
+  "totalTransmissions": 19,
+  "eligibleSwapCount": 154,
   "topInfectors": [
+    {
+      "address": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
+      "infections": 7
+    },
     {
       "address": "0x02b95471188985D78669bEAa000abEe3942fc5e4",
       "infections": 5
@@ -15,10 +19,6 @@
     {
       "address": "0xf40bDc35f32089c549d90356A0155f612Cf74151",
       "infections": 4
-    },
-    {
-      "address": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
-      "infections": 3
     },
     {
       "address": "0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a",
@@ -30,6 +30,50 @@
     }
   ],
   "recentTransmissions": [
+    {
+      "source": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
+      "host": "0xA985F8F09ad7DeaD9F4D95b2CE18b1231FF9e9C1",
+      "strainCode": "0xa73f5d41e5a528d95655f270ec7c5f4c67ef45ae92ab5ff8de0adf46744ab22a",
+      "displayStrain": "VRL-A73F-5D41",
+      "generation": 3,
+      "rewardCutBps": 420,
+      "block": 26049807,
+      "logIndex": 341,
+      "tx": "0xe39b32e546706c74d12377fa2f9c8a9707ba0b81580292a8e7c98f924fdcc01f"
+    },
+    {
+      "source": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
+      "host": "0x1D6A711E869BfBCf2957d319Ab590e390737B2De",
+      "strainCode": "0x1001c7d665e9d14d7d3bda8c07a65705175433e625dbc6c8d4b2d28556a55045",
+      "displayStrain": "VRL-1001-C7D6",
+      "generation": 3,
+      "rewardCutBps": 323,
+      "block": 26049804,
+      "logIndex": 239,
+      "tx": "0xce29e4d25f1feecaeeb3c812bbb2752a762f1212a58862a7a28a9974568b8bfc"
+    },
+    {
+      "source": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
+      "host": "0x1FEE26F0a3bc7580471c6Db73d91996DfA1E240D",
+      "strainCode": "0x21b13751e15ebb40b49ebbf7d6d723393d75abd40d6407eea83956e91b9b01c6",
+      "displayStrain": "VRL-21B1-3751",
+      "generation": 3,
+      "rewardCutBps": 734,
+      "block": 26049802,
+      "logIndex": 300,
+      "tx": "0x20d93fa668483aade67a1e433319ebc468c26ba3efaa7e11c72b7e391ec6ad9a"
+    },
+    {
+      "source": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
+      "host": "0xB3EE9Dbb7F67B1021F919792a7287DE6645D210F",
+      "strainCode": "0xa21c9e869340c599687e9591ef93c02783815f4afbaee3add854efaaabede38f",
+      "displayStrain": "VRL-A21C-9E86",
+      "generation": 3,
+      "rewardCutBps": 768,
+      "block": 26049800,
+      "logIndex": 330,
+      "tx": "0x7736e802c9ce3b0d995623e3d529b2ab3c72fb2d39c70862da50f9d87ba57ca2"
+    },
     {
       "source": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
       "host": "0xE463E91b5Ac588E24Ac810d403795f08F86822D9",
