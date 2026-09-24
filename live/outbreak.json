@@ -1,12 +1,12 @@
 {
-  "block": 26050346,
-  "revision": 164,
-  "strainCode": "VRL-28C2-7FF8",
+  "block": 26050392,
+  "revision": 165,
+  "strainCode": "VRL-D940-36C3",
   "activeHosts": 19,
   "immuneHosts": 0,
   "cleanedHosts": 0,
   "totalTransmissions": 19,
-  "eligibleSwapCount": 164,
+  "eligibleSwapCount": 165,
   "topInfectors": [
     {
       "address": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
