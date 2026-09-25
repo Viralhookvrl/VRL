@@ -1,12 +1,12 @@
 {
-  "block": 26052554,
-  "revision": 170,
-  "strainCode": "VRL-09CE-F9BC",
+  "block": 26052654,
+  "revision": 171,
+  "strainCode": "VRL-CE11-28C8",
   "activeHosts": 19,
   "immuneHosts": 0,
   "cleanedHosts": 0,
   "totalTransmissions": 19,
-  "eligibleSwapCount": 170,
+  "eligibleSwapCount": 171,
   "topInfectors": [
     {
       "address": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
