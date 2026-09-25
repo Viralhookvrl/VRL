@@ -3,7 +3,7 @@
   "chainId": 1,
   "contractAddress": "0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1",
   "deployBlock": 26049550,
-  "lastProcessedBlock": 26055020,
+  "lastProcessedBlock": 26055086,
   "revision": 181,
   "genome": "0x1096afdabe34e91ef480b378a23faeed7fb197b98c939d2da63b49e72a8c74d4",
   "strainCode": "VRL-1096-AFDA",
@@ -12,6 +12,6 @@
   "immuneHosts": 0,
   "totalTransmissions": 19,
   "hook": "0x7259D1e4992f691bcC0Df86bC4d7D2F2885660cC",
-  "lastProcessedBlockHash": "0x7321004c955d4b553c4e0df56cd04b77d6f8aab6a3a49b07c5394aca131cb09a",
-  "updatedAt": "2026-09-25T14:21:50.245Z"
+  "lastProcessedBlockHash": "0x601bdd4d269e7e704f13d8275aca0828c7547fa15fa92e1b3569b8333de8d73e",
+  "updatedAt": "2026-09-25T14:35:12.838Z"
 }
