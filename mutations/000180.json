@@ -1,0 +1,9 @@
+{
+  "revision": 180,
+  "block": 26054643,
+  "tx": "0xcd69c6006bf2d5665617ef9f3d2f6805d9b6906752433105059e13ddacc83502",
+  "previousGenome": "0xf706612d95c3c351072e91eaf17af8fa32aa5c9dfc23c56fb6646c2bc30caa92",
+  "newGenome": "0xc8700c38668e1f614b19284aa608721c3f036cdb755ce31900cbbba0724b39fe",
+  "displayStrain": "VRL-C870-0C38",
+  "eligibleSwapCount": 180
+}
