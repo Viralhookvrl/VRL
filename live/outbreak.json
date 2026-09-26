@@ -1,12 +1,12 @@
 {
-  "block": 26063965,
-  "revision": 186,
-  "strainCode": "VRL-949C-37CC",
+  "block": 26064022,
+  "revision": 187,
+  "strainCode": "VRL-0623-89A7",
   "activeHosts": 19,
   "immuneHosts": 0,
   "cleanedHosts": 0,
   "totalTransmissions": 19,
-  "eligibleSwapCount": 186,
+  "eligibleSwapCount": 187,
   "topInfectors": [
     {
       "address": "0x2e23efFCB67AB9BE0A176b40e7A8565D9C9Aa412",
