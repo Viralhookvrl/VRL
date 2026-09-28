@@ -3,7 +3,7 @@
   "chainId": 1,
   "contractAddress": "0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1",
   "deployBlock": 26049550,
-  "lastProcessedBlock": 26075063,
+  "lastProcessedBlock": 26075142,
   "revision": 187,
   "genome": "0x062389a7892edea3f629b829b3b469c7acb79fa855a806f85e325ee6e9cbab6b",
   "strainCode": "VRL-0623-89A7",
@@ -12,6 +12,6 @@
   "immuneHosts": 0,
   "totalTransmissions": 19,
   "hook": "0x7259D1e4992f691bcC0Df86bC4d7D2F2885660cC",
-  "lastProcessedBlockHash": "0xdbd3bb8ba5cd90bb961565e24fcc9d95908ba4dd87fb383bd7eb1a9c5af170ef",
-  "updatedAt": "2026-09-28T09:32:04.858Z"
+  "lastProcessedBlockHash": "0x8480ab402ae2099845e8a40cdbec55fa5332a018640b6bfc6ab38d5d0282142f",
+  "updatedAt": "2026-09-28T09:47:54.650Z"
 }
