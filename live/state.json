@@ -3,15 +3,15 @@
   "chainId": 1,
   "contractAddress": "0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1",
   "deployBlock": 26049550,
-  "lastProcessedBlock": 26098797,
-  "revision": 189,
-  "genome": "0xcbffed9585c5953f2b858a66487cea6c0e03e9fa3ed15ca73794ff88e222dcbc",
-  "strainCode": "VRL-CBFF-ED95",
-  "eligibleSwapCount": 189,
+  "lastProcessedBlock": 26098862,
+  "revision": 190,
+  "genome": "0xbd80427b5e74d12643f8a2f53208c706f16ee314db46da4d55f96fe1b59b9653",
+  "strainCode": "VRL-BD80-427B",
+  "eligibleSwapCount": 190,
   "activeHosts": 19,
   "immuneHosts": 0,
   "totalTransmissions": 19,
   "hook": "0x7259D1e4992f691bcC0Df86bC4d7D2F2885660cC",
-  "lastProcessedBlockHash": "0x0b28fbdf3d581801c7b6eaa71ffefa429a2f3d7b58d81336c817aa2ddbefe5ef",
-  "updatedAt": "2026-10-01T16:58:15.299Z"
+  "lastProcessedBlockHash": "0xab30c70b9c7a3af0d9cd02060673c7c024713e8f4eecfe9911b901b2b54edb67",
+  "updatedAt": "2026-10-01T17:11:18.263Z"
 }
