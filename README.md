@@ -23,7 +23,7 @@ This repository is the field record. It reads the contract and writes down what 
 | Immune hosts | 0 |
 | Total transmissions | [19](transmissions/) |
 | Eligible swaps | 190 |
-| Finalized through | [26106675](https://etherscan.io/block/26106675) |
+| Finalized through | [26106748](https://etherscan.io/block/26106748) |
 | Contract | [`0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1`](https://etherscan.io/address/0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1) |
 
 ### Recent transmissions
