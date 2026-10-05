@@ -3,7 +3,7 @@
   "chainId": 1,
   "contractAddress": "0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1",
   "deployBlock": 26049550,
-  "lastProcessedBlock": 26122765,
+  "lastProcessedBlock": 26122843,
   "revision": 190,
   "genome": "0xbd80427b5e74d12643f8a2f53208c706f16ee314db46da4d55f96fe1b59b9653",
   "strainCode": "VRL-BD80-427B",
@@ -12,6 +12,6 @@
   "immuneHosts": 0,
   "totalTransmissions": 19,
   "hook": "0x7259D1e4992f691bcC0Df86bC4d7D2F2885660cC",
-  "lastProcessedBlockHash": "0x4335155ca7de8ebca19a14785302942989b2ab3d124c05939d9d92eaec7502dd",
-  "updatedAt": "2026-10-05T01:07:53.024Z"
+  "lastProcessedBlockHash": "0xa5f5ef4d2061d492c951c945dd02b5a3062abaef78afeb1bbf79be02a94fc5ac",
+  "updatedAt": "2026-10-05T01:23:32.890Z"
 }
