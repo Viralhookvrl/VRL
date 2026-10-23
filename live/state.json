@@ -3,7 +3,7 @@
   "chainId": 1,
   "contractAddress": "0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1",
   "deployBlock": 26049550,
-  "lastProcessedBlock": 26253890,
+  "lastProcessedBlock": 26254060,
   "revision": 191,
   "genome": "0x4071a4ebc5f24af403cfd340240c486e64116219ed4b70cce35f8c4bcf8d3f0a",
   "strainCode": "VRL-4071-A4EB",
@@ -12,6 +12,6 @@
   "immuneHosts": 0,
   "totalTransmissions": 19,
   "hook": "0x7259D1e4992f691bcC0Df86bC4d7D2F2885660cC",
-  "lastProcessedBlockHash": "0x5e4cf14e14589666dd81929d6352c9967dbd0ccc7fb2921f20935435f4e9ee71",
-  "updatedAt": "2026-10-23T07:42:46.845Z"
+  "lastProcessedBlockHash": "0x2372fb0587b65734e471f03e4d49c2f349a31fe9cb187cb5b284eb2c192fc6f4",
+  "updatedAt": "2026-10-23T08:16:55.570Z"
 }
