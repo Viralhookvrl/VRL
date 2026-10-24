@@ -16,14 +16,14 @@ This repository is the field record. It reads the contract and writes down what 
 
 | Outbreak | Current state |
 | --- | --- |
-| Strain | `VRL-4071-A4EB` |
-| Genome | `0x4071…3f0a` |
-| Revision | [191](mutations/) |
+| Strain | `VRL-713E-7687` |
+| Genome | `0x713e…8652` |
+| Revision | [192](mutations/) |
 | Active hosts | 19 |
 | Immune hosts | 0 |
 | Total transmissions | [19](transmissions/) |
-| Eligible swaps | 191 |
-| Finalized through | [26262326](https://etherscan.io/block/26262326) |
+| Eligible swaps | 192 |
+| Finalized through | [26262420](https://etherscan.io/block/26262420) |
 | Contract | [`0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1`](https://etherscan.io/address/0xA14eDfD52357Bf7DF3a21C66F667d2e15Cc950a1) |
 
 ### Recent transmissions
@@ -49,11 +49,11 @@ This repository is the field record. It reads the contract and writes down what 
 | [`0x6884…2e3a`](https://etherscan.io/address/0x6884e3B6d36a3573e78dB71B38AeD3620d1F2e3a) | 2 |
 | [`0xc14D…0D95`](https://etherscan.io/address/0xc14DB08A71928E14Aff08DE1D662680ebCE60D95) | 1 |
 
-Latest mutation: [revision 191](mutations/000191.json) — `VRL-4071-A4EB` at block [26135762](https://etherscan.io/block/26135762), in [`0x4b90b8f1…`](https://etherscan.io/tx/0x4b90b8f163545c86c70e8cc8652264c14bb0f25b4424e87ecd9d338e017695ac).
+Latest mutation: [revision 192](mutations/000192.json) — `VRL-713E-7687` at block [26262413](https://etherscan.io/block/26262413), in [`0xbb35d901…`](https://etherscan.io/tx/0xbb35d901f04e71ccc7fa5a81942a8bf648712b53b631c66c970d8700a1fbd675).
 
 [State](live/state.json) · [Genome](live/genome.json) · [Outbreak](live/outbreak.json) · [Infections](infections/) · [Mutations](mutations/) · [Transmissions](transmissions/)
 
-191 mutations and 19 transmissions archived. An infection expires on a swap count, then the host stays immune for 32 eligible swaps.
+192 mutations and 19 transmissions archived. An infection expires on a swap count, then the host stays immune for 32 eligible swaps.
 
 *Snapshot of finalized Ethereum state. This section updates when the sync workflow runs.*
 
